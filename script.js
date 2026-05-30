@@ -26,7 +26,7 @@ contactForm.addEventListener('submit', (e) => {
     
     // WhatsApp message
     const whatsappMessage = `Hola ElectroServicios Pro, mi nombre es ${name}. Email: ${email}, Teléfono: ${phone}. Mensaje: ${message}`;
-    const whatsappUrl = `https://wa.me/57878937100?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/503 7889 3718?text=${encodeURIComponent(whatsappMessage)}`;
     
     // Redirect to WhatsApp
     window.open(whatsappUrl, '_blank');
